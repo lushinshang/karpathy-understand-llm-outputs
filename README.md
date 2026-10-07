@@ -25,12 +25,12 @@ Karpathy 在 2026 年 10 月 2 日的 X 貼文裡說，我們會花愈來愈多�
 | 演講影片 | Andrej Karpathy, Software Is Changing (Again)（Y Combinator AI Startup School，2025 年 6 月） | https://www.youtube.com/watch?v=LCEmiRjPEtQ |
 | 官方網站與文件 | ASD-STE100 官方網站與 STEMG 白皮書（2026 年 6 月） | https://www.asd-ste100.org/ |
 
-原始逐字稿位置：不適用（來源為 X 貼文與影片，未保存逐字稿；YC 演講引文取自自動字幕）。
+原始逐字稿位置：不適用（來源為 X 貼文與影片，未保存逐字稿）。
 
 ## 最重要的官方與第一手來源
 
 - Karpathy X 貼文（第一手）：https://x.com/karpathy/status/2105819303471976479
-- Karpathy YC 演講（第一手，引文依自動字幕）：https://www.youtube.com/watch?v=LCEmiRjPEtQ
+- Karpathy YC 演講（第一手）：https://www.youtube.com/watch?v=LCEmiRjPEtQ
 - ASD-STE100 官方網站（STEMG）：https://www.asd-ste100.org/
 - About STE（沿革、53 條規則、約 900／約 1,200 字、Issue 9）：https://www.asd-ste100.org/about_STE.html
 - FAQ（1979 年起因）：https://www.asd-ste100.org/STE_faq.html

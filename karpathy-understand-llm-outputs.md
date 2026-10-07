@@ -93,7 +93,7 @@ Karpathy 看上的，應該是這種為了「讀錯一個字會出事」而磨�
 
 **主要來源**
 - Andrej Karpathy，X 貼文，2026-10-02：<https://x.com/karpathy/status/2105819303471976479>
-- Andrej Karpathy，Software Is Changing (Again)，Y Combinator AI Startup School，2025 年 6 月：<https://www.youtube.com/watch?v=LCEmiRjPEtQ>（引文依自動字幕）
+- Andrej Karpathy，Software Is Changing (Again)，Y Combinator AI Startup School，2025 年 6 月：<https://www.youtube.com/watch?v=LCEmiRjPEtQ>
 
 **ASD-STE100 官方來源**
 - ASD-STE100 官方網站（STEMG）：<https://www.asd-ste100.org/>
