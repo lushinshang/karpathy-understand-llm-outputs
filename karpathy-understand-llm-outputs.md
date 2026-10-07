@@ -17,7 +17,7 @@ sources:
 
 # 一萬行程式碼，一個人來看
 
-2025 年 6 月，Karpathy 在 [Y Combinator 的演講](https://www.youtube.com/watch?v=LCEmiRjPEtQ)裡，描述了每個用過 coding agent 的人都有感的場面：AI 一次丟來一個一萬行的 diff。他說這對他沒有用，因為「I'm still the bottleneck」，一萬行瞬間就出來了，但他還是得確認裡面沒有引進 bug、做的是對的事、沒有資安問題。（本文引用的演講內容，皆依 YouTube 自動字幕整理，字幕有誤辨識，引文以意思為準。）
+2025 年 6 月，Karpathy 在 [Y Combinator 的演講](https://www.youtube.com/watch?v=LCEmiRjPEtQ)裡，描述了每個用過 coding agent 的人都有感的場面：AI 一次丟來一個一萬行的 diff。他說這對他沒有用，因為「I'm still the bottleneck」，一萬行瞬間就出來了，但他還是得確認裡面沒有引進 bug、做的是對的事、沒有資安問題。
 
 同一段演講裡，他把分工講得很簡單：AI 通常負責產出，人負責驗證。他給了兩個方向：想辦法讓驗證變快，以及把 AI 拴著（keep the AI on the leash），一次只收小改動。
 
