@@ -123,7 +123,7 @@ figure.fig.summary{margin:28px auto 0; padding:0 20px; width:auto; max-width:40e
 <p>ASD-STE100 的來歷，<a href="https://www.asd-ste100.org/about_STE.html" rel="noopener">官方網站</a>講得很具體。</p>
 <p>它起於 1970 年代末。歐洲航空公司（當時的 AEA）在 <a href="https://www.asd-ste100.org/STE_faq.html" rel="noopener">1979 年</a>找上歐洲航太工業協會 AECMA，原因是各家製造商的維修手冊雖然都用英文，寫法卻差很多，而這些航空公司裡<a href="https://www.asd-ste100.org/about_STE.html" rel="noopener">有八成不來自英語系國家</a>。目標是讓英語只有基本程度的讀者也能看懂維修文件，因為官方自己的說法是：複雜的技術指令可能被誤解，而誤解可能導致事故。第一版 AECMA Simplified English Guide 在 1986 年發布。2005 年它成為國際規格，2025 年 1 月 15 日發布的 Issue 9 則把它升格為國際標準（<a href="https://www.asd-ste100.org/" rel="noopener">官網首頁</a>）。</p>
 <p>這套標準分兩部分：53 條寫作規則，分成 9 大類，管文法與文風；一本受控字典，收約 900 個核准字，一般而言每個字只有一個詞性、一個意思，另外列約 1,200 個不核准的字，附替代字（<a href="https://www.asd-ste100.org/about_STE.html" rel="noopener">About STE</a>）。</p>
-<p>Karpathy 看上的，應該是這種為了「讀錯一個字會出事」而磨出來的紀律。不過他自己也說規範太嚴，所以才有「80%」這個折衷。規範全文需向官方填表申請，各項字數與句數上限本文沒有引用。</p>
+<p>Karpathy 看上的，應該是這種為了「讀錯一個字會出事」而磨出來的紀律。不過他自己也說規範太嚴，所以才有「80%」這個折衷。</p>
 </section>
 <section id="s3" aria-labelledby="s3-h">
 <h2 id="s3-h">把兩次發言放在一起</h2>
@@ -134,21 +134,20 @@ figure.fig.summary{margin:28px auto 0; padding:0 20px; width:auto; max-width:40e
 <section id="s4" aria-labelledby="s4-h">
 <h2 id="s4-h">好讀，不等於正確</h2>
 <p>2025 年演講的核心問題，是人怎麼確認 AI 做的東西是對的；2026 年貼文談的是怎麼讀得懂。這兩件事不一定同方向。</p>
-<p>貼文本身沒有談這個落差。能拿來對照的，是 ASD-STE100 的維護單位。STEMG 在 2026 年 6 月（文件自署日期）發表了一份三頁的<a href="https://www.asd-ste100.org/assets/files/WhitePaper-ASD-STE100_and_AI.pdf" rel="noopener">白皮書</a>，題目是 ASD-STE100 與人工智慧。<a href="https://www.asd-ste100.org/STE_downloads.html" rel="noopener">官方下載頁</a>對它的摘要，寫得很直接：AI 產生的文字「can appear clear, authoritative, and consistent with STE, even when it does not correctly apply the rules and vocabulary of the standard」，並且「Plausibility must not be confused with verified compliance」。白皮書的結論是 AI 可以輔助技術作者，但取代不了人的監督，遇到衝突時，標準本身優先。白皮書也提到，用 AI 自動檢查 STE 合規，目前準確度不一。</p>
+<p>能拿來對照的，是 ASD-STE100 的維護單位。STEMG 在 2026 年 6 月（文件自署日期）發表了一份三頁的<a href="https://www.asd-ste100.org/assets/files/WhitePaper-ASD-STE100_and_AI.pdf" rel="noopener">白皮書</a>，題目是 ASD-STE100 與人工智慧。<a href="https://www.asd-ste100.org/STE_downloads.html" rel="noopener">官方下載頁</a>對它的摘要，寫得很直接：AI 產生的文字「can appear clear, authoritative, and consistent with STE, even when it does not correctly apply the rules and vocabulary of the standard」，並且「Plausibility must not be confused with verified compliance」。白皮書的結論是 AI 可以輔助技術作者，但取代不了人的監督，遇到衝突時，標準本身優先。白皮書也提到，用 AI 自動檢查 STE 合規，目前準確度不一。</p>
 <p>要留意範圍：這份白皮書談的是 AI 寫的 STE 文件，只涵蓋貼文的第一層，沒有討論圖、網頁或影片，也不是在回應 Karpathy。把它延伸到後面三層，是本文的類推：輸出看起來愈完整，愈需要另外一道驗證。</p>
 <p>近一週也有評論做了類似的延伸（<a href="https://gu-log.vercel.app/en/posts/en-mp-317-20261002-karpathy-llm-output-format-ladder/" rel="noopener">gu-log</a>，頁面署名由 AI 撰寫）：最好懂的格式和最好監督的格式不一定是同一個。它的建議是，想快速建立直覺就往上爬；要下判斷或署名負責時，退回第一層，請模型用 80% STE 把關鍵主張一條一條寫出來，再逐句檢查。這是該評論的建議，不是 Karpathy 的主張。</p>
-<p>貼文附的那張圖，剛好可以當一個小例子。那是一張工程圖紙風格的 STE 總覽圖，貼文沒說明來源。一篇在貼文後兩天發表、自稱做過查證的文章（<a href="https://max.nardit.com/articles/karpathy-understanding-llm-outputs" rel="noopener">max.nardit.com</a>）指出，這張圖的字典條目有幾處和 Issue 9 對不上，例如圖中把 approximately 標成不核准，而該文說標準是核准的。這是單一來源的說法，本文沒有取得規範全文可以核對，所以不採用圖中的任何字典內容。</p>
+<p>貼文附的那張圖，剛好可以當一個小例子。那是一張工程圖紙風格的 STE 總覽圖，貼文沒說明來源。一篇在貼文後兩天發表、自稱做過查證的文章（<a href="https://max.nardit.com/articles/karpathy-understanding-llm-outputs" rel="noopener">max.nardit.com</a>）指出，這張圖的字典條目有幾處和 Issue 9 對不上，例如圖中把 approximately 標成不核准，而該文說標準是核准的。這是單一來源的說法，本文不採用圖中的任何字典內容。</p>
 </section>
 <section id="s5" aria-labelledby="s5-h">
 <h2 id="s5-h">實際用起來</h2>
-<p>下面是本文的整理，每一條都標了依據：</p>
+<p>下面是本文的整理：</p>
 <ul>
 <li><strong>想快速抓到陌生主題的輪廓</strong>：請 LLM 做圖，或要求輸出成 HTML。依據是貼文對這兩層的描述（圖較容易處理與理解、HTML 可以做出互動頁面）。</li>
-<li><strong>想讓長篇說明更容易讀</strong>：照貼文的說法，要求「80% of the way to ASD-STE100」。這靠的是 LLM 對規範的熟悉度，而官方白皮書說，AI 自動檢查 STE 合規目前準確度不一，所以把它當成風格約束，不要當成合規保證。</li>
-<li><strong>要拿結果去做決定、發布或寫進程式</strong>：對照原始資料，必要時照上一節 gu-log 的做法退回第一層。這一條的依據是白皮書的人為監督原則，貼文沒有這樣說。</li>
+<li><strong>想讓長篇說明更容易讀</strong>：照貼文的說法，要求「80% of the way to ASD-STE100」。這靠的是 LLM 對規範的熟悉度，而 AI 檢查 STE 合規目前準確度不一（見上節白皮書），所以把它當成風格約束，不要當成合規保證。</li>
+<li><strong>要拿結果去做決定、發布或寫進程式</strong>：對照原始資料，必要時照上一節 gu-log 的做法退回第一層。這一條的依據是白皮書的人為監督原則。</li>
 </ul>
 <p>支持「受控語言有用」的研究是有的，但範圍有限。<a href="https://researchconnect.buffalo.edu/en/publications/simplified-english-for-aircraft-workcards/" rel="noopener">1996 年 Chervak、Drury 與 Ouellette 對 175 位飛機維修技師做的研究</a>發現，使用簡化英文後理解度明顯提升，在較難的工卡以及非母語者身上尤其明顯。那是人在讀人寫的維修工卡，和人在讀 LLM 產生的各種輸出不同，只能當方向性的佐證。</p>
-<p>關於第四層的影片，貼文的原話是「starting to work」，沒有說已經可靠。</p>
 </section>
 <section id="s6" aria-labelledby="s6-h">
 <h2 id="s6-h">回到那一萬行</h2>
